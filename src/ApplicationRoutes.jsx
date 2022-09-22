@@ -6,7 +6,7 @@ function ApplicationRoutes() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<h1>home</h1>} />
+                <Route path="/" element={<Home />} />
                 <Route path="/about" element={<h1>About</h1>} />
                 <Route path="/comments" element={<h1>Comments</h1>} />
                 <Route path="/contact" element={<h1>Contact</h1>} />

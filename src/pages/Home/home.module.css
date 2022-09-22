@@ -1,0 +1,16 @@
+.header {
+ text-align: center;
+ color: #fff;
+ background: #ad63ff;
+}
+
+.header h1 {
+ padding-top: 2rem;
+ font-size: 2rem;
+}
+
+.header img {
+ margin-top: 2rem;
+ width: 40vw;
+ height: 60vh;
+}
