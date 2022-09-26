@@ -1,23 +1,10 @@
-import { initializeApp } from 'firebase/app'
-import { getDatabase, ref, set, push } from 'firebase/database'
+import { database } from '../../services/firebase'
+import { ref, set, push } from 'firebase/database'
 
 import { useState } from 'react'
 import styles from './contact.module.css'
 import contactImg from '../../assets/contact.svg'
 
-const firebaseConfig = {
-   apiKey: "AIzaSyAXpJTfCa8uIp35c-fkR2-MshEkASOqxIk",
-   authDomain: "pretalab-projeto-final-195f0.firebaseapp.com",
-   databaseURL: "https://pretalab-projeto-final-195f0-default-rtdb.firebaseio.com",
-   projectId: "pretalab-projeto-final-195f0",
-   storageBucket: "pretalab-projeto-final-195f0.appspot.com",
-   messagingSenderId: "15069213993",
-   appId: "1:15069213993:web:732c8feed552d38491f338"
- };
- 
- // Initialize Firebase
- const app = initializeApp(firebaseConfig);
- const database = getDatabase(app);
 
 function Contact () {
    const [nome, setNome] = useState('')
