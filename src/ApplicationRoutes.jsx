@@ -1,16 +1,22 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-
-import Home from "./pages/Home/Home"
+import Contact from './pages/Contact/Contact'
+import Menu from './components/Menu/Menu'
+import Footer from './components/Footer/Footer'
+import Home from './pages/Home/Home'
+import About from './pages/About/About'
+import Comments from './pages/Comments/Comments'
 
 function ApplicationRoutes() {
     return (
         <BrowserRouter>
+            <Menu />
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/about" element={<h1>About</h1>} />
-                <Route path="/comments" element={<h1>Comments</h1>} />
-                <Route path="/contact" element={<h1>Contact</h1>} />
+                <Route path="About" element={<About />} />
+                <Route path="Comments" element={<Comments />} />
+                <Route path="Contact" element={<Contact />} />
             </Routes>
+            <Footer />
         </BrowserRouter>
     )
 

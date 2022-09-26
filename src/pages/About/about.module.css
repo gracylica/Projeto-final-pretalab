@@ -1,0 +1,53 @@
+   .header {
+    text-align: center;
+    color: #fff;
+    background: #ad63ff;  
+  }
+  
+   .header h1 {
+    padding-top: 4rem;
+    font-size: 2rem;
+  }
+  
+   .header img {
+    margin: 2rem;
+    width: 60%;
+    height: 100%;
+  }
+  
+   .subtitulo {
+    padding: 1rem;
+    font-size: 1.5rem;
+    height: 700px;
+    color: #ad63ff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #EDE9E0;
+  }
+  
+   .subtitulo p {
+    width: 40%;
+  }
+  
+   .subtitulo img {
+    margin: 2rem;
+    width: 50vw;
+    height: 60vh;
+  }
+  
+  .header h1 {
+     padding: 2rem;
+      font-size: 2rem;
+    }
+  
+  .subtitulo img {
+      margin: 2rem;
+      width: 60vw;
+      height: 25vh;
+    }
+  
+    .subtitulo p {
+      width: 80%;
+    }
