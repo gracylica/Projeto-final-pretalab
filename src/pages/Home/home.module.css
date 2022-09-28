@@ -5,12 +5,14 @@
 }
 
 .header h1 {
- padding-top: 2rem;
+ padding-top: 3rem;
  font-size: 2rem;
 }
 
 .header img {
- margin-top: 2rem;
- width: 60%;
- height: 60vh;
+ justify-content: center;
+ margin: 4rem;
+ width: 60% auto;
+ height: 40vh;
+ 
 }
