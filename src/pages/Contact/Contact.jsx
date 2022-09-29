@@ -43,7 +43,7 @@ function Contact () {
       <>
       <div className={styles.header}>
          <h1>
-            Deixe seu contato
+            Deixe em seu contato
          </h1>
          <img src={contactImg} />
       </div>

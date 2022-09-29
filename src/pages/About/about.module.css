@@ -25,7 +25,6 @@
    .subtitulo {
     padding: 1rem;
     font-size: 1.5rem;
-    height: 700px;
     color: #ad63ff;;
     text-align: center;
     display: flex;
@@ -49,12 +48,39 @@
       font-size: 2rem;
     }
   
-  .subtitulo img {
+   .subtitulo img {
       margin: 2rem;
       width: 20vw;
       height: 25vh;
     }
   
-    .subtitulo p {
+   .subtitulo p {
       width: 80%;
+    }
+
+    .containerProjetos {
+      padding: 1rem;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card li {
+      background: #e3cafd;
+      padding: 1rem;
+      font-size: 1.5rem;
+      color: #ad63ff;
+      text-align: center;
+      padding: 1rem;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+    }
+
+    .card img {
+      margin: 2rem;
+      height: 40vh;
     }

@@ -1,12 +1,15 @@
-import devImg from '../../assets/minha-foto.png'
-import softImg from '../../assets/soft-skills.svg'
+
+import devHomeImg from '../../assets/home-img.svg'
+import calcImg from '../../assets/img-calculadora.png'
+import instImg from '../../assets/img-instagram.png'
+import portImg from '../../assets/img-portifolio.png'
 import styles from '../About/about.module.css'
 
 function About() {
   return (
     <>
       <div className={styles.header}>
-      <img src={devImg} />
+      <img src={devHomeImg} />
         <p>
           "Olá, sou Graciele Correia, tenho 34 anos e sou natural de Pernambuco. 
             Com formação em Comunicação visual e com mais de 10 anos de experiência
@@ -17,9 +20,20 @@ function About() {
         </p>
       </div>
       <div className={styles.subtitulo}>
-        <img src={softImg} />
-        <p> Projetos feitos com conhecimentos adquiridos
-          em HTML, CSS, JS e React pelo Ciclo Formativo Básico PretaLab.</p>
+        <p> Meus Projetos.</p>
+      </div>
+      <div className={styles.containerProjetos}>
+      <ul className={styles.card}>
+        <li>
+          <p>Calculadora</p>
+          <img src={calcImg} /></li>
+        <li>
+          <p>Instagram</p>
+          <img src={instImg} /></li>
+        <li>
+          <p>Portfólio</p>
+          <img src={portImg} /></li>
+      </ul>
       </div>
     </>
   )
