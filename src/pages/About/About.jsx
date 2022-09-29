@@ -8,11 +8,11 @@ function About() {
       <div className={styles.header}>
       <img src={devImg} />
         <p>
-          "Olá, me chamo Graciele Correia, tenho 34 anos e sou natural de Pernambuco. 
+          "Olá, sou Graciele Correia, tenho 34 anos e sou natural de Pernambuco. 
             Com formação em Comunicação visual e com mais de 10 anos de experiência
             profissional estou migrando de carreira para a área de tecnologia. Busco por
-            uma oportunidade em Front End e  assim obter consolidar e obter por novos
-            conhecimentos e experiências e colaborando em novos projetos cada vez mais
+            uma oportunidade em Front End e assim consolidar e obter novos
+            conhecimentos e experiências, colaborando em novos projetos cada vez mais
             inovadores.
         </p>
       </div>
