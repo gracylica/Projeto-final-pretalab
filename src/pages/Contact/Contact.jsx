@@ -71,7 +71,7 @@ function Contact () {
             </form>
             <div className={styles.listaContactContainer}>
                <ul className={styles.listaContact}>
-                  <li><AiFillMail size={30} color="#ad63ff"/><a href="https://gracylica@hotmail.com" target="blank"> gracylica@hotmail.com</a></li>
+                  <li><AiFillMail size={30} color="#ad63ff"/><a href="https://gracylica@hotmail.com" target="blank" > gracylica@hotmail.com</a></li>
                   <li><AiFillLinkedin size={30} color="#ad63ff"/><a href="https://linkedin.com/in/graciele-correia-b0397049" target="_blank"> graciele-correia</a></li>
                   <li><AiFillGithub size={30} color="#ad63ff"/><a href="https://github.com/gracylica"  target="_blank"> gracylica</a></li>
                </ul>

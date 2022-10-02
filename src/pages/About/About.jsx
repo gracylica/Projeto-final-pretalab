@@ -9,12 +9,12 @@ function About() {
   return (
     <>
       <div className={styles.header}>
-      <img src={devHomeImg} />
+        <img src={devHomeImg} />
         <p>
           "Olá, sou Graciele Correia, tenho 34 anos e sou natural de Pernambuco. 
-            Com formação em Comunicação visual e com mais de 10 anos de experiência
+            Com formação em Comunicação Visual e com mais de 10 anos de experiência
             profissional estou migrando de carreira para a área de tecnologia. Busco por
-            uma oportunidade em Front End e assim consolidar e obter novos
+            uma oportunidade e assim consolidar e obter novos
             conhecimentos e experiências, colaborando em novos projetos cada vez mais
             inovadores.
         </p>
@@ -23,17 +23,17 @@ function About() {
         <p> Meus Projetos.</p>
       </div>
       <div className={styles.containerProjetos}>
-      <ul className={styles.card}>
-        <li>
-          <p>Calculadora</p>
-          <img src={calcImg} /></li>
-        <li>
-          <p>Instagram</p>
-          <img src={instImg} /></li>
-        <li>
-          <p>Portfólio</p>
-          <img src={portImg} /></li>
-      </ul>
+        <ul className={styles.card}>
+          <li>
+            <p>Calculadora de Hora x Salário</p>
+            <img src={calcImg} /></li>
+          <li>
+            <p>Pagina inicial do Instagram</p>
+            <img src={instImg} /></li>
+          <li>
+            <p>Portfólio</p>
+            <img src={portImg} /></li>
+        </ul>
       </div>
     </>
   )
